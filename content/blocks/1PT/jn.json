@@ -1,0 +1,41 @@
+{
+    "type":"PowerTurret",//类型：充能炮
+    "name":"[cyan]聚能",//名字
+    "description":"中型充能炮，中规中矩，对付点防炮有很好的效果。
+生命值：5300
+大小：5
+可以被超频
+“确实中规中矩”",//简介
+    "health":5300,//生命值
+    "size":5,//大小
+    "inaccuracy":0,//精准度
+    "range":400,//范围
+    "chargeTime":600,//充能时间
+    "chargeEffectTime":600,//充能特性时间
+    "chargeMaxDelay":60,//充能到发射的延迟
+    //"chargeBeginEffect":"",//开始充能特效
+    //"ChargeEffect":"",//充能特效
+    "powerUse":60,//耗电量
+    "ammoTypes":{//子弹
+        "type":"LaserBulletType",//子弹类型：兰瑟
+        //"sprite":"[red]工业革新重制版-tqzd",//子弹贴图
+        "width":10,//子弹宽
+        "height":400,//子弹长
+        "shrinkY":0,//子弹大小缩放
+        "knockback":5,//击退
+        "backColor":"d3ae8d",//子弹-back贴图颜色
+        "frontColor":"f7cba4",//子弹贴图颜色
+        "collides":true,//子弹是否碰撞
+        "collidesAir":true,//子弹是否与空中单位碰撞
+        "damage":10,//子弹伤害
+        "pierce":true,//子弹是否贯穿单位
+        "pierceBuilding":true,//子弹是否贯穿建筑
+        "lifetime":600,//子弹巡航(存在)时间
+        //"status":"melting"//子弹击中敌人给予的效果
+    },
+    "requirements":[],
+    "category":"turret",
+    "research":"gxfy",
+
+    "buildVisibility":"sandboxOnly"
+}

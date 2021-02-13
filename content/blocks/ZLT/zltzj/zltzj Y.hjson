@@ -1,0 +1,19 @@
+type:Wall
+name:"[white]着陆艇装甲 右"
+description:"[white]小型通用飞船装甲
+生命值：1000
+大小：1
+可以阻挡敌人
+可以旋转
+“还行”"
+rotate:true
+hasShadow:false
+health:1000
+size:1
+breakable:true
+solid:true
+destructible:true
+requirements:[]
+buildVisibility:sandboxOnly
+category:effect
+research:zlthx

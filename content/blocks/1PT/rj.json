@@ -1,0 +1,34 @@
+{
+    "type":"PointDefenseTurret",//类型：点防炮
+    "name":"[orange]溶解",//名字
+    "description":"[white]巨型点防炮，拦截各种实体炮弹，速度极快。
+生命值：10240
+大小：9
+可以被超频
+“耗电也极快”
+[yellow]射速：0.01 (很快就是了)
+范围：500
+瞄准偏角：5
+炮台旋转速度：1000
+射击音效：rjfs (自定义)",//简介
+    "health":10240,//生命值
+    "size":9,//大小
+    "retargetTime":0,//重新瞄准所需时间
+    "reloadTime":0.01,//射速
+    "rotateSpeed":1000,//炮台旋转速度
+    "shootCone":5,//瞄准最大偏角
+    "range":500,//范围
+    "bulletDamage":2500,//子弹伤害
+    "shootLength":35,//激光离枪口距离
+    "color":"ffa500",//激光颜色
+    //"beamEffect":"",//激光特效
+    //"hitEffect":"",//击中特效
+    //"shootEffect":"",//射击特效
+    "shootSound":"rjfs",//射击音效
+    "consumes":{
+        "power":100
+    },
+    "requirements":[],
+    "category":"turret",
+    "research":"gxfy"
+}

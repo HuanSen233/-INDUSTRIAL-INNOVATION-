@@ -1,0 +1,22 @@
+{
+    "type":"Drill",
+    "name":"性能钻头",
+    "description":"[white]气动钻头和激光钻头的中间产物，
+优点是不用电，基础速度高，傻瓜式制造
+缺点是不能超速造的慢还TM很脆。
+“设计师貌似很喜欢这东西”",
+    "size":"3",
+    "health":"40",
+    "breakable":"true",
+    "drillTime":"200",
+    "tier":"3",
+    "canOverdrive":"false",
+    "requirements":[
+        {"item":"copper","amount":20}
+        {"item":"graphite","amount":20}
+        {"item":"titanium","amount":10}
+    ],
+    "buildCostMultiplier":"50",
+    "category":"production",
+    "research":"gxkc"
+}

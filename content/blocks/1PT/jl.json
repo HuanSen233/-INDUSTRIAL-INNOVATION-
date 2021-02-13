@@ -1,0 +1,128 @@
+{
+    "type":"ItemTurret",//类型
+    "name":"[yellow]巨浪",//名字
+    "description":"[white]拥有两种攻击模式的中型炮台
+第一种：一次发射五发炮台弹，无法攻击到近处的敌人，所以尽量将其放在后排。
+第二种：一次发射五发带有追踪功能的导弹，可以对空
+生命值：5300
+大小：5
+可以被超频
+“你撒过土豆吗”
+[yellow]精准度：5 (95%)
+射速：120 (2秒)
+范围：800
+最小范围：250
+瞄准偏角：10
+子弹散布：0
+是否对空：否
+是否对地：是
+物品容量：20
+弹仓容量：60
+单次射击所用弹药：5
+单管炮：
+    单次射击的子弹数量：5
+    交替射击：否
+炮台旋转速度：默认
+炮台后座力：3
+炮台复位速度：0.02
+射击音效：artillery (炮,代表：浪涌)
+[red]所用弹药：
+    沙：分裂数500，弹片伤害1，不可对空
+    硅：追踪导弹，追踪力度100，追踪范围50，可对空
+    不想写了，爬",//简介
+    "health":5300,//生命值
+    "size":5,//大小
+    "hasItems":true,//是否存储物品
+    "itemCapacity":20,//物品储量
+    "reloadTime":120,//射速
+    "inaccuracy":5,//精准度
+    "range":800,//范围
+    "minRange":250,//最小范围
+    "shots":5,//一次发射子弹的数量
+    "shootCone":10,//瞄准最大偏角
+    "spread":0,//子弹散布区域
+    "recoilAmount":3,//炮台后座力
+    "restitution":0.02,//回复原位速度
+    "alternate":false,//是否交替射击
+    //"shotWidth":2,//炮口的间距
+    "targetGround":true,//是否瞄准地面单位
+    "targetAir":true,//是否瞄准空中单位
+    "shootSound":"artillery",//射击音效
+    //"shootEffect":"shockwave",//射击特效
+    //"smokeEffect":"none",//冒烟特效
+    "heatColor":"ffc871",//发热颜色
+    "maxAmmo":60,//弹仓容纳数量
+    "ammoPerShot":5,//射击一次用多少子弹
+	"ammoTypes":{//所用弹药
+		"sand":{//子弹所需物品
+            "type":"ArtilleryBulletType",//子弹类型
+            //"sprite":"[red]工业革新重制版-tqzd",//子弹贴图
+			"width":10,//子弹宽
+			"height":10,//子弹长
+			"shrinkY":0,//子弹大小缩放
+			"knockback":0,//击退
+			"backColor":"d3ae8d",//子弹-back贴图颜色
+			"frontColor":"f7cba4",//子弹贴图颜色
+			"collides":true,//子弹是否碰撞
+            "collidesAir":false,//子弹是否与空中单位碰撞
+			"keepVelocity":false,//子弹巡航是否锁定速度
+			"speed":5,//子弹速度
+			"damage":10,//子弹伤害
+			"splashDamageRadius":10,//子弹范围伤害的范围
+			"splashDamage":10,//子弹范围伤害的伤害
+			"pierce":false,//子弹是否贯穿单位
+			"pierceBuilding":false,//子弹是否贯穿建筑
+			"lifetime":600,//子弹巡航(存在)时间
+            "ammoMultiplier":10,//1物品等于多少子弹
+            //"status":"melting"//子弹击中敌人给予的效果
+            "fragBullets":500,//破片数量
+            "fragBullet":{//破片
+                "type":"FlakBulletType",//子弹类型
+                "explodeRange":10,//爆炸范围
+                "width":3,//子弹宽
+                "height":3,//子弹长
+                "speed":10,//子弹速度
+                "collidesAir":false,//子弹是否与空中单位碰撞
+                "fragVelocityMin":0.2,//破片最小速度倍率
+                "fragVelocityMax":10,//破片最大速度倍率
+                "damage":1,//子弹伤害
+                "lifetime":30,//子弹巡航(存在)时间
+                "hitEffect":"none",//击中特效
+                "despawnEffect":"none",//超时特效
+            }
+        },
+        "silicon":{//子弹所需物品
+            "type":"MissileBulletType",//子弹类型
+            //"sprite":"[red]工业革新重制版-tqzd",//子弹贴图
+			"width":10,//子弹宽
+			"height":30,//子弹长
+			"shrinkY":0,//子弹大小缩放
+			"knockback":0,//击退
+			"backColor":"767a84",//子弹-back贴图颜色
+			"frontColor":"8e9097",//子弹贴图颜色
+			"collides":true,//子弹是否碰撞
+            "collidesAir":true,//子弹是否与空中单位碰撞
+			"keepVelocity":true,//子弹巡航是否锁定速度
+			"speed":5,//子弹速度
+			"damage":70,//子弹伤害
+			"splashDamageRadius":20,//子弹范围伤害的范围
+			"splashDamage":60,//子弹范围伤害的伤害
+			"pierce":false,//子弹是否贯穿单位
+            "pierceBuilding":false,//子弹是否贯穿建筑
+            "homingPower":100,//子弹追踪力度
+            "homingRange":50,//追踪范围
+            "reloadMultiplier":5,//射速倍率
+			"lifetime":180,//子弹巡航(存在)时间
+            "ammoMultiplier":1,//1物品等于多少子弹
+            //"status":"melting"//子弹击中敌人给予的效果
+            "shootEffect":"shockwave",//射击特效
+            "hitEffect":"shockwave",//击中特效
+            "despawnEffect":"shockwave",//超时特效
+        }
+    },
+    "requirements":[
+        {"item":"copper","amount":300}
+    ],
+    "category":"turret",
+    "research":"gxfy"
+}

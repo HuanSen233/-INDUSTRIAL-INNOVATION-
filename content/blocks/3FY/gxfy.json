@@ -1,0 +1,18 @@
+{
+    "type":"Wall",
+    "name":"[white]革新防御",
+    "description":"[white]革新防御，给您带来与众不同的墙。
+大小：1
+生命值：1
+无法阻挡敌人
+“这介绍好水”",
+    "buildVisibility":"sandboxOnly",
+    "health":"1",
+    "size":"1",
+    "breakable":"true",
+    "solid":"false",
+    "destructible":"false",
+    "requirements":[],
+    "category":"defense",
+    "research":"hysygxkj"
+}

@@ -1,0 +1,29 @@
+{
+    "type":"RepairPoint",
+    "name":"全图维修点",
+    "description":"[white]全图维修点，维修覆盖全图，但修复量对不起它的耗电量。
+生命值：4000
+大小：9
+范围：100000 (全图)
+维修速度：10
+能量消耗：800 (48000)
+“够用就行，别上头”",
+    "health":"4000",
+    "size":"9",
+    "repairRadius":"100000",
+    "repairSpeed":"10",
+    "powerUse":"800",
+    "requirements":[
+        {"item":"copper","amount":5000}
+        {"item":"lead","amount":4500}
+        {"item":"titanium","amount":3000}
+        {"item":"thorium","amount":4500}
+        {"item":"graphite","amount":3000}
+        {"item":"silicon","amount":2500}
+        {"item":"metaglass","amount":6000}
+        {"item":"phase-fabric","amount":1000}
+        {"item":"plastanium","amount":1000}
+    ],
+    "category":"units",
+    "research":"dxwxd"
+}

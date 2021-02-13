@@ -1,0 +1,37 @@
+{
+    "type":"GenericSmelter",
+    "name":"[white]核爆压缩机LV3",
+    "description":"[white]利用核弹爆炸的冲击力来压缩压缩压缩物质，效果很好。
+生命值：2000
+大小：5
+能量消耗：50 (3000)
+物品储量：1000
+生产速度：60 (1秒)
+可以被超频
+“[red]不保护也行[white]”",
+    "health":"2000",
+    "size":"5",
+    "hasItems":"true",
+    "consumesPower":"true",
+    "itemCapacity":"1000",
+    "craftTime":"60",
+    "consumes":{
+        "power":50,
+        "items":{
+            "items":[
+                {"item":"hdddt","amount":30}
+                {"item":"yswzLV2","amount":1000}
+            ]
+        }
+    },
+    "outputItem":
+    {"item":"yswzLV3","amount":500},
+    "requirements":[
+        {"item":"silicon","amount":500}
+        {"item":"surge-alloy","amount":1000}
+        {"item":"plastanium","amount":500}
+        {"item":"yswzLV2","amount":1000}
+    ],
+    "category":"crafting",
+    "research":"hbysjLV2"
+}

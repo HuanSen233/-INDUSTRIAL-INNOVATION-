@@ -1,0 +1,17 @@
+type:Wall
+name:"[white]压缩物质墙"
+description:"[white]你可以理解成高级砖墙。
+生命值：900
+大小：1
+可以阻挡敌人
+“我上我也行”"
+health:900
+size:1
+breakable:true
+solid:true
+destructible:true
+requirements:[
+    yswzLV2/3
+]
+category:defense
+research:gxfy

@@ -1,0 +1,36 @@
+{
+	"type":"payload",//种类：运输机
+	"name":"[lime]鲲鹏",//名称
+	"description":"[white]标准空中堡垒，无攻击能力，移动速度缓慢，拥有堡垒型装甲和精确的空中指挥，以及强大的运输能力。
+生命值：200000
+装甲：5000
+大小：110
+指挥上限：15
+物品容量：4000
+载货容量：6400 (100方块)
+采矿等级：5
+采矿速度：30 (3000%)
+建造速度：15 (1500%)
+移动速度：0.3
+旋转速度：1
+“鲲之大，一锅炖不下”",//简介
+	"health":200000,//生命值
+	"armor":5000,//装甲
+	"hitSize":110,//大小
+	"flying":true,//是否飞行
+	"lowAltitude":true,//是否低空飞行
+	"speed":0.3,//基础速度
+	"rotateSpeed":1,//旋转速度
+	"buildSpeed":15,//建造速度
+	"mineTier":5,//采矿等级
+	"mineSpeed":30,//采矿速度
+    "itemCapacity":4000,//物品容量
+	"itemOffsetY":-38,//物品显示离中心Y轴
+	"payloadCapacity":6400,//载货容量 64/1
+	"commandLimit":15,//指挥上限
+	"engineSize":10,//引擎大小
+	"engineOffset":60,//引擎离中心Y轴
+	"lightRadius":300,//光源半径
+	"lightColor":"ffffff",//光源颜色
+	"alwaysUnlocked":true
+}

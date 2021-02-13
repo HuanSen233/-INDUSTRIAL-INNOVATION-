@@ -1,0 +1,16 @@
+type:Wall
+name:"[white]革新开采"
+description:"[white]你要知道物质并不能凭空生成。
+大小：1
+生命值：1
+无法阻挡敌人
+“所以我们到现在还在挖矿而不是把土丢进高能原子再构机里直接转换成其他资源??!!”"
+buildVisibility:sandboxOnly
+size:1
+health:1
+breakable:true
+solid:false
+destructible:false
+requirements:[]
+category:production
+research:hysygxkj

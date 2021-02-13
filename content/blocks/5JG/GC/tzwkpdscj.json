@@ -1,0 +1,39 @@
+{
+    "type":"GenericCrafter",
+    "name":"[white]铜制无壳炮弹生产机",
+    "description":"[white]生产常规铜制无壳炮弹。
+生命值：200
+大小：2
+能量消耗：2 (120)
+物品储量：20
+生产速度：300 (5秒)
+可以被超频
+“咚的一声一发炮弹就没了”",
+    "health":"400",
+    "size":"2",
+    "hasItems":"true",
+    "consumesPower":"true",
+    "itemCapacity":"20",
+    "craftTime":"600",
+    "consumes":{
+        "power":2,
+        "items":{
+            "items":[
+                {"item":"copper","amount":1}
+                {"item":"dytjj","amount":1}
+            ]
+        }
+    },
+    "outputItem":
+    {"item":"tzwkpd","amount":5},
+    "requirements":[
+        {"item":"copper","amount":200}
+        {"item":"lead","amount":150}
+        {"item":"titanium","amount":200}
+        {"item":"thorium","amount":100}
+        {"item":"graphite","amount":100}
+        {"item":"silicon","amount":600}
+    ],
+    "category":"crafting",
+    "research":"dytjjhcq"
+}

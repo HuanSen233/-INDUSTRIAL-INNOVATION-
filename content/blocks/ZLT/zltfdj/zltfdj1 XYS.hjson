@@ -1,0 +1,18 @@
+type:SolarGenerator
+name:"[white]着陆艇发电机1 斜右上边"
+description:"[white]着陆艇上的太阳能发电机，发电量较少，建议配合储能器使用。
+生命值：1000
+大小：2
+发电量：1 (60)
+可以被超频
+可以旋转
+“这东西怎么看都不觉得坚固，但它确实很硬”"
+rotate:true
+hasShadow:false
+health:1000
+size:2
+powerProduction:1
+requirements:[]
+buildVisibility:sandboxOnly
+category:effect
+research:zltnljd

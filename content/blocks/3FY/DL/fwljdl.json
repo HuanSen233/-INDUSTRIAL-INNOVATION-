@@ -1,0 +1,25 @@
+{
+    "type":"ShockMine",
+    "name":"反无量级地雷",
+    "description":"[white]能瞬间炸飞原版无量级地面单位的地雷，[red]极其暴力[white]。
+生命值：1000
+大小：3
+威力：50000
+范围：5
+振动：虽然没振动但设置是100
+冷却：10
+“卧槽爷的硅！！！”",
+    "health":"1000",
+    "size":"3",
+    "damage":"50000",
+    "length":"5",
+    "tileDamage":"50000",
+    "tendrils":"100",
+    "requirements":[
+        {"item":"lead","amount":10000}
+        {"item":"silicon","amount":12000}
+        {"item":"lg","amount":500}
+    ],
+    "category":"defense",
+    "research":"gxfy"
+}

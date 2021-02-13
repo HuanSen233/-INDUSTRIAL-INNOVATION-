@@ -1,0 +1,16 @@
+type:StorageBlock
+name:"[white]着陆艇仓库1 左"
+description:"[white]着陆艇仓库1 左边
+生命值：1000
+大小：2
+物品储量：2000
+可以旋转
+“?”"
+rotate:true
+health:1000
+size:2
+itemCapacity:2000
+requirements:[]
+buildVisibility:sandboxOnly
+category:effect
+research:zlthx

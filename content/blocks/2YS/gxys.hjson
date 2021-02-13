@@ -1,0 +1,16 @@
+type:Wall
+name:"[white]革新运输"
+description:"[white]这不意味着你能解放双手了。
+大小：1
+生命值：1
+无法阻挡敌人
+“铺设传送带是门技术活，某些人连传送带能拐弯都不知道”"
+buildVisibility:sandboxOnly
+size:1
+health:1
+breakable:true
+solid:false
+destructible:false
+requirements:[]
+category:distribution
+research:hysygxkj

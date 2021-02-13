@@ -1,0 +1,17 @@
+type:Wall
+name:"[white]大型压缩物质墙"
+description:"[white]压缩物质砌的大型墙，还行。
+生命值：3500
+大小：2
+可以阻挡敌人
+“还 行”"
+health:3500
+size:2
+breakable:true
+solid:true
+destructible:true
+requirements:[
+    yswzLV2/12
+]
+category:defense
+research:yswzq

@@ -1,0 +1,36 @@
+{
+    "type":"GenericCrafter",
+    "name":"[white]核爆压缩机LV1",
+    "description":"[white]利用核弹爆炸的冲击力来压缩物质，效果很好。
+生命值：1000
+大小：3
+能量消耗：50 (3000)
+物品储量：2000
+生产速度：60 (1秒)
+可以被超频
+“[red]保护好你的耳朵[white]”",
+    "health":"1000",
+    "size":"3",
+    "hasShadow":"flase",
+    "hasItems":"true",
+    "consumesPower":"true",
+    "itemCapacity":"2000",
+    "craftTime":"60",
+    "consumes":{
+        "power":50,
+        "items":{
+            "items":[
+                {"item":"hdddt","amount":10}
+            ]
+        }
+    },
+    "outputItem":
+    {"item":"yswzLV1","amount":2000},
+    "requirements":[
+        {"item":"silicon","amount":500}
+        {"item":"surge-alloy","amount":1000}
+        {"item":"plastanium","amount":500}
+    ],
+    "category":"crafting",
+    "research":"hdtzzj"
+}
