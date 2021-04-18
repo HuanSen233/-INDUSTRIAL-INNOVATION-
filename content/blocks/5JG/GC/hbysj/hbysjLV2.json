@@ -1,0 +1,29 @@
+{
+    "type":"GenericCrafter",
+    "health":"1500",
+    "size":"4",
+    "hasShadow":"flase",
+    "hasItems":"true",
+    "consumesPower":"true",
+    "itemCapacity":"2000",
+    "craftTime":"60",
+    "consumes":{
+        "power":50,
+        "items":{
+            "items":[
+                {"item":"hdddt","amount":20}
+                {"item":"yswzLV1","amount":2000}
+            ]
+        }
+    },
+    "outputItem":
+    {"item":"yswzLV2","amount":1000},
+    "requirements":[
+        {"item":"silicon","amount":500}
+        {"item":"surge-alloy","amount":1000}
+        {"item":"plastanium","amount":500}
+        {"item":"yswzLV1","amount":2000}
+    ],
+    "category":"crafting",
+    "research":"hbysjLV1"
+}

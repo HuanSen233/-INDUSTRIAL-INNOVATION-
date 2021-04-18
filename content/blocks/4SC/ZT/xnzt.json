@@ -1,0 +1,17 @@
+{
+    "type":"Drill",
+    "size":"3",
+    "health":"40",
+    "breakable":"true",
+    "drillTime":"75",
+    "tier":"3",
+    "canOverdrive":"false",
+    "requirements":[
+        {"item":"copper","amount":20}
+        {"item":"graphite","amount":20}
+        {"item":"titanium","amount":10}
+    ],
+    "buildCostMultiplier":"50",
+    "category":"production",
+    "research":"gxkc"
+}

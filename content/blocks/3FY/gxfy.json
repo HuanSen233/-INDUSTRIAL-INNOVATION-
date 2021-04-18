@@ -1,0 +1,12 @@
+{
+    "type":"Wall",
+    "buildVisibility":"sandboxOnly",
+    "health":"1",
+    "size":"1",
+    "breakable":"true",
+    "solid":"false",
+    "destructible":"false",
+    "requirements":[],
+    "category":"defense",
+    "research":"hysygxkj"
+}

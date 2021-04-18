@@ -1,0 +1,11 @@
+{
+    "type":"PayloadConveyor",
+    "health":3300,
+    "size":9,
+    "moveTime":240,
+    "moveForce":20,
+    "requirements":[],
+    "category":"distribution",
+    "research":"tcsd",
+    "buildVisibility":"sandboxOnly"
+}

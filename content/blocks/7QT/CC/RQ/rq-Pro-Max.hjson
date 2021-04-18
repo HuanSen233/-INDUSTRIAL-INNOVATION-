@@ -1,0 +1,17 @@
+type:StorageBlock
+name:容器ProMax
+description:"[white]容器的[red]ProMax[white]版本，该进了摆放方式，能储存超多的物品。
+生命值：400
+大小：2
+物品储量：1200
+“得，完蛋”"
+health:400
+size:2
+itemCapacity:1200
+requirements:[
+    titanium/800
+    thorium/200
+    silicon/100
+]
+category:effect
+research:rq-Max

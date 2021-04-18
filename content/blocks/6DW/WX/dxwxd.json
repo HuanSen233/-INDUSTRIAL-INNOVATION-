@@ -1,0 +1,25 @@
+{
+    "type":"RepairPoint",
+    "name":"大型维修点",
+    "description":"[white]大型维修点，维修范围大，但是费电。
+生命值：400
+大小：3
+范围：300 (37.50)
+维修速度：10
+能量消耗：18 (1080)
+“别造太多”",
+    "health":"400",
+    "size":"3",
+    "repairRadius":"300",
+    "repairSpeed":"10",
+    "powerUse":"18",
+    "requirements":[
+        {"item":"copper","amount":100}
+        {"item":"lead","amount":100}
+        {"item":"titanium","amount":100}
+        {"item":"silicon","amount":100}
+        {"item":"metaglass","amount":50}
+    ],
+    "category":"units",
+    "research":"gxdw"
+}

@@ -1,0 +1,16 @@
+type:Wall
+name:"[white]革新升级"
+description:"[white]说是升级其实就是弄亿些奇奇怪怪的机器。
+大小：1
+生命值：1
+无法阻挡敌人
+“没意见”"
+buildVisibility:sandboxOnly
+size:1
+health:1
+breakable:true
+solid:false
+destructible:false
+requirements:[]
+category:effect
+research:hysygxkj

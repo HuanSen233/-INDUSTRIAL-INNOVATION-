@@ -1,0 +1,11 @@
+type:Wall
+health:900
+size:1
+breakable:true
+solid:true
+destructible:true
+requirements:[
+    yswzLV2/3
+]
+category:defense
+research:gxfy

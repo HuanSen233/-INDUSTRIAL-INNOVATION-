@@ -1,0 +1,77 @@
+{
+    "type":"legs",//类型：爬虫
+    "name":"[red]践行者",//名字
+    "description":"[red]
+此行弑祸，无人能拒。
+何人为祸，核心即祸。
+
+有啥事吗小伙?
+
+[white]
+顺便提一嘴，别看它大，实际上这个B灵活的很。
+“百万血十万甲，是个敌方单位，慢慢刮吧兄déi”",//简介
+    "health":1000000,//生命值
+    "armor":100000,//装甲
+    "hitSize":100,//大小
+    //"canBoost":true,//是否助推
+    //"boostMultiplier":1000,//助推速度倍率
+    "speed":3,//基础速度
+    "rotatespeed":1,//转身速度
+	"rotateSpeed":5,//旋转速度
+	"buildSpeed":250,//建造速度
+	"mineTier":10,//采矿等级
+	"mineSpeed":1000,//采矿速度
+    //"baseRotateSpeed":0,//基座旋转速度
+    //"drag":3,//速度阻力
+    //"accel":10,//加速度
+    //"landShake":0,//机甲晃动幅度
+    "rippleScale":35,//走在水上时波纹大小
+    //"fallSpeed":1,//摔下去的速度
+    "range":300,//射程范围
+    "maxRange":300,//最大射程范围
+    "targetAir":true,//是否对空
+    "targetGround":true,//是否对地
+    "faceTarget":true,//是否攻击时面朝对象
+    "rotateShooting":true,//是否射击时旋转
+    "omniMovement":true,//全方位运动
+    "ammoCapacity":500,//弹药容量
+    "ammoResupplyAmount":20,//补给弹药时一物品等于多少弹药
+    "ammoResupplyRange":100,//补给弹药所需范围
+    "itemCapacity":20000,//物品容量
+	"itemOffsetY":0,//物品显示离中心Y轴
+    "canDrown":false,//是否会溺水死亡
+    //"engineSize":0,//引擎大小
+    //"engineOffset":100,//引擎在Y轴的位置偏移量
+    "lightRadius":500,//光源半径
+    "lightOpacity":1,//光源透明度，1完全透明，0完全不透明
+    "lightColor":"ffffff",//光源颜色
+    "drawCell":true,//渲染队伍灯
+    "drawItems":true,//渲染物品显示
+    //"immunities":[//无法被施加的状态],
+    "deathSound":"bang",//死亡音效
+    "legCount":10,//腿的数量
+    "legGroupSize":70,//基础腿的宽度
+    "legLength":250,//基础腿的长度
+    "legLengthScl":1.3,//腿的长度倍率
+    //"legSpeed":1,//腿的移动速度
+    "legTrns":0,//脚部落地的位置偏移倍率
+    "legBaseOffset":75,//基础腿离基座的距离
+    "legMoveSpace":1,//腿移动的空间倍率
+    "legExtension":63,//腿部连接点的位置偏移
+    //"legPairOffset":50,//腿部的偏移量
+    //"maxStretch":1,//腿部最大拉伸度
+    "allowLegStep":true,//允许腿部移动
+    "hovering":true,//是否悬停
+    "visualElevation":10,//悬停高度
+    "legSplashDamage":7000,//腿部碰撞伤害
+    "legSplashRange":400,//腿部伤害范围
+    "weapons":[
+        {
+            "name":"jxz1",//武器名字对应贴图名字
+            "y":-50,//武器Y轴偏移
+            "x":0,//武器X轴偏移
+            "rotate":false,//是否独立旋转
+            "bullet":{}
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "type":"ShockMine",
+    "health":"1000",
+    "size":"3",
+    "damage":"50000",
+    "length":"5",
+    "tileDamage":"50000",
+    "tendrils":"100",
+    "requirements":[
+        {"item":"lead","amount":10000}
+        {"item":"silicon","amount":12000}
+        {"item":"lg","amount":500}
+    ],
+    "category":"defense",
+    "research":"gxfy"
+}

@@ -1,0 +1,16 @@
+type:Wall
+name:"[white]革新电力"
+description:"[white]能量使用率可以决定一个文明的科技水平。
+大小：1
+生命值：1
+无法阻挡敌人
+“那能量过剩怎么说?”"
+buildVisibility:sandboxOnly
+size:1
+health:1
+breakable:true
+solid:false
+destructible:false
+requirements:[]
+category:power
+research:hysygxkj

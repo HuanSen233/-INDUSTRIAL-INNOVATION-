@@ -1,0 +1,16 @@
+type:StorageBlock
+name:容器Max
+description:"[white]容器的[blue]Max[white]版本，学了下英特尔，能储存很多的物品。
+生命值：300
+大小：2
+物品储量：900
+“MAX??!!”"
+health:300
+size:2
+itemCapacity:900
+requirements:[
+    titanium/400
+    thorium/100
+]
+category:effect
+research:rq-Pro

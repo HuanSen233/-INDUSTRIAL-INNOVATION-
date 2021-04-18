@@ -1,0 +1,36 @@
+{
+    "type":"SingleTypeGenerator",
+    "name":"蓝硅衰变发电机",
+    "description":"[white]利用[blue]蓝硅[white]的放射性发电的机器，发电量很高，但一块[blue]蓝硅[white]用不了多久，你还要[red]防止它爆炸[white]。
+生命值：300
+大小：3
+发电量：600 (36000)
+发电时间：30 (0.5秒)
+物品储量：10
+不可被超频
+“半秒吃一个。。。”",
+    "health":"300",
+    "size":"3",
+    "canOverdrive":"false",
+    "hasItems":"true",
+    "itemCapacity":"10",
+    "itemDuration":"30",
+    "powerProduction":"600",
+    "consumes":{
+        "items":{
+            "items":[
+                {"item":"lg","amount":1}
+            ]
+        }
+    },
+    "requirements":[
+        {"item":"copper","amount":250}
+        {"item":"lead","amount":100}
+        {"item":"thorium","amount":200}
+        {"item":"graphite","amount":150}
+        {"item":"silicon","amount":100}
+        {"item":"plastanium","amount":75}
+    ],
+    "category":"power",
+    "research":"gxdl"
+}

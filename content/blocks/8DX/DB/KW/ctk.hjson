@@ -1,0 +1,11 @@
+type:OreBlock
+name:"[white]磁铁矿"
+description:"[white]富含磁性金属的矿石
+产生矿物：ct (磁铁)
+挖掘等级：3 (激光钻头)
+地图颜色：浅灰 (D3D3D3)
+“你要是拿来玩没人会管你”"
+variants:3
+itemDrop:ct
+useColor:true
+mapColor:D3D3D3
