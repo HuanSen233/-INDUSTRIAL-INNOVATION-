@@ -60,6 +60,7 @@
 修改了 qtwxd.json 为 jnwxd.json
 修改了 qtwxd.png 为 jnwxd.png
 修改了 qtwxd-base.png 为 jnwxd-base.png
+修改了 ☢hhw.png 为 fshhw.png
 
 移除了 ck-Max.hjson
 移除了 ck-Pro.hjson
