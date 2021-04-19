@@ -1,0 +1,29 @@
+{
+    "type":"GenericCrafter",
+    "health":"400",
+    "size":"3",
+    "hasItems":"true",
+    "consumesPower":"true",
+    "itemCapacity":"20",
+    "craftTime":"600",
+    "consumes":{
+        "power":1,
+        "items":{
+            "items":[
+                {"item":"blast-compound","amount":1}
+                {"item":"pyratite","amount":2}
+            ]
+        }
+    },
+    "outputItem":
+    {"item":"dytjj","amount":10},
+    "requirements":[
+        {"item":"copper","amount":200}
+        {"item":"lead","amount":130}
+        {"item":"titanium","amount":150}
+        {"item":"graphite","amount":120}
+        {"item":"silicon","amount":100}
+    ],
+    "category":"crafting",
+    "research":"gxsc"
+}

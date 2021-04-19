@@ -1,0 +1,17 @@
+type:resource
+name:"[yellow]核导弹弹头"
+description:"[white]简称核弹，中等体型，威力不小，别炸自己。
+颜色：暗灰 (696969)
+挖掘等级：没矿给你挖
+爆炸性：10
+(即使没均衡爆炸掀掉小波动墙不是什么大问题)
+可燃性：1
+辐射性：1 (可以拆掉放进RTG里然后炸掉，如果你不嫌贵)
+“古文明用来维持和平的老古董了”"
+color:696969
+explosiveness:10
+flammability:1
+radioactivity:1
+hardness:233
+cost:1
+alwaysUnlocked:true

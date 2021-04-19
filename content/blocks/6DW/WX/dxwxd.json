@@ -1,0 +1,17 @@
+{
+    "type":"RepairPoint",
+    "health":"400",
+    "size":"3",
+    "repairRadius":"300",
+    "repairSpeed":"10",
+    "powerUse":"18",
+    "requirements":[
+        {"item":"copper","amount":100}
+        {"item":"lead","amount":100}
+        {"item":"titanium","amount":100}
+        {"item":"silicon","amount":100}
+        {"item":"metaglass","amount":50}
+    ],
+    "category":"units",
+    "research":"gxdw"
+}

@@ -1,0 +1,12 @@
+type:Wall
+health:1
+size:1
+breakable:true
+solid:false
+destructible:false
+hasShadow:false
+requirements:[
+    yswzLV1/1
+]
+category:effect
+research:zs

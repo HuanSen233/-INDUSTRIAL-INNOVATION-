@@ -1,0 +1,16 @@
+type:resource
+name:"[white]压缩物质LV.4"
+description:"[white]奇怪矿物压缩出来的东西，强悍的材料。
+颜色：深天蓝 (00BFFF)
+挖掘等级：没矿给你挖
+爆炸性：0
+可燃性：0
+辐射性：0
+“这才是我想要的”"
+color:00BFFF
+explosiveness:0
+flammability:0
+radioactivity:0
+hardness:233
+cost:1
+alwaysUnlocked:true

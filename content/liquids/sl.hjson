@@ -1,0 +1,27 @@
+type:liquids
+name:"[blue]深蓝"
+description:"[white]学名叫“A-18急冻液”，
+常见于高气压冰狱型星球地表，低气压冰冻型星球地下，
+温度极低，不易运输，无法合成，现挖现用。
+冰点：-201.44°
+沸点：-153.22°
+颜色：191970 (午夜蓝)
+UI颜色：191970 (午夜蓝)
+发光颜色：20209a (自定义蓝)
+可燃性：0
+温度：0
+热融：2
+粘度：0.95
+爆炸性：0
+接触获得的状态：freezing (冰冻)
+“过冷沸腾的水你见过没?我没见过。”"
+color:191970
+barColor:191970
+lightColor:20209a
+flammability:0
+temperature:0
+heatCapacity:2
+viscosity:0.95
+explosiveness:0
+effect:freezing
+alwaysUnlocked:true
