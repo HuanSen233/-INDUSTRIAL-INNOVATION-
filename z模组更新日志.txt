@@ -47,3 +47,25 @@
 
 移除了 tzwkpdscj.json
 ————————————————————————————————————————————————
+时间:
+2021/4/19
+------------------------------------------------
+执行人:HuanSen233
+事件:
+更新了 bundle_zh_CN.properties
+
+修改了 qtwxd 的数值
+修改了 GYGX-csdwgc 的数值
+
+修改了 qtwxd.json 为 jnwxd.json
+修改了 qtwxd.png 为 jnwxd.png
+修改了 qtwxd-base.png 为 jnwxd-base.png
+
+移除了 ck-Max.hjson
+移除了 ck-Pro.hjson
+移除了 ck-Pro-Max.hjson
+移除了 rq-Max.hjson
+移除了 rq-Pro.hjson
+移除了 rq-Pro-Max.hjson
+移除了 ljnlfyd.json
+————————————————————————————————————————————————
