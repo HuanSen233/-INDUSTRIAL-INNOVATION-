@@ -77,8 +77,16 @@
 事件:
 更新了 bundle_zh_CN.properties
 
-修改了大多数 .hjson 为 .json
+修改了 kp.json 的数值
+修改了 kte.json 的数值
+修改了 jxz.json 的数值
+
+修改了 .hjson 为 .json
 
 移除了 tzwkpd.hjson
 移除了 ljjt.hjson
+移除了 hfbyydfj.json
+
+上传了 2021_5_7 版本模组
+上传了 LV19 版本模组
 ————————————————————————————————————————————————
