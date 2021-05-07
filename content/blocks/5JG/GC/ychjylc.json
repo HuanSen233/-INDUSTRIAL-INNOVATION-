@@ -1,0 +1,28 @@
+{
+    "type":"GenericSmelter",
+    "health":"400",
+    "size":"3",
+    "hasItems":"true",
+    "consumesPower":"true",
+    "itemCapacity":"40",
+    "craftTime":"120",
+    "flameColor":"ffffff",
+    "consumes":{
+        "power":10,
+        "items":{
+            "items":[
+                {"item":"ct","amount":20}
+                {"item":"surge-alloy","amount":5}
+            ]
+        }
+    },
+    "outputItem":
+    {"item":"ychj","amount":1},
+    "requirements":[
+        {"item":"silicon","amount":500}
+        {"item":"surge-alloy","amount":1000}
+        {"item":"plastanium","amount":500}
+    ],
+    "category":"crafting",
+    "research":"gxsc"
+}

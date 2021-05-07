@@ -1,0 +1,13 @@
+{
+    "type":"liquids",//类型:液体
+    "color":"191970",//颜色
+    "barColor":"191970",//发光颜色
+    "lightColor":"20209a",//液体颜色
+    "flammability":0,//可燃性
+    "temperature":0,//温度
+    "heatCapacity":2,//比热容
+    "viscosity":0.5,//粘度
+    "explosiveness":0,//爆炸性
+    "effect":"freezing",//接触此液体获得的状态
+    "alwaysUnlocked":true//是否始终解锁科技
+}

@@ -1,0 +1,10 @@
+{
+    "type":"resource",
+    "color":"00BFFF",
+    "explosiveness":0,
+    "flammability":0,
+    "radioactivity":0,
+    "hardness":233,
+    "cost":1,
+    "alwaysUnlocked":true
+}

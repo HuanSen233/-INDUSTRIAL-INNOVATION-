@@ -1,0 +1,13 @@
+{
+    "type":"Wall",
+    "health":3500,
+    "size":2,
+    "breakable":true,
+    "solid":true,
+    "destructible":true,
+    "requirements":[
+        {"amount":12,"item":"yswzLV2"}
+    ],
+    "category":"defense",
+    "research":"yswzq",
+}

@@ -1,0 +1,21 @@
+{
+    "type":"RepairPoint",
+    "health":"4000",
+    "size":"9",
+    "repairRadius":"2500",
+    "repairSpeed":"15",
+    "powerUse":"800",
+    "requirements":[
+        {"item":"copper","amount":5000}
+        {"item":"lead","amount":4500}
+        {"item":"titanium","amount":3000}
+        {"item":"thorium","amount":4500}
+        {"item":"graphite","amount":3000}
+        {"item":"silicon","amount":2500}
+        {"item":"metaglass","amount":6000}
+        {"item":"phase-fabric","amount":1000}
+        {"item":"plastanium","amount":1000}
+    ],
+    "category":"units",
+    "research":"dxwxd"
+}

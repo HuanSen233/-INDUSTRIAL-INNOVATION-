@@ -1,0 +1,7 @@
+{
+    "type":"OreBlock",
+    "variants":3,
+    "itemDrop":"ct",
+    "useColor":true,
+    "mapColor":"D3D3D3"
+}

@@ -1,0 +1,23 @@
+{
+	"type":"payload",//种类：运输机
+	"health":100000,//生命值
+	"armor":1000,//装甲
+	"hitSize":110,//大小
+	"flying":true,//是否飞行
+	"lowAltitude":true,//是否低空飞行
+	"speed":2,//基础速度
+	"rotateSpeed":1,//旋转速度
+	"buildSpeed":15,//建造速度
+	"mineTier":5,//采矿等级
+	"mineSpeed":30,//采矿速度
+    "itemCapacity":4000,//物品容量
+	"itemOffsetY":-38,//物品显示离中心Y轴
+	"payloadCapacity":6400,//载货容量 64/1
+	"commandLimit":8,//指挥上限
+	"engineSize":10,//引擎大小
+	"engineOffset":60,//引擎离中心Y轴
+	"lightRadius":300,//光源半径
+	"lightColor":"ffffff",//光源颜色
+	"alwaysUnlocked":true,//是否始终解锁科技
+	"research":"gxdw"//科技树前置
+}

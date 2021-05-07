@@ -1,0 +1,14 @@
+{
+    "type":"Wall",
+    "health":1,
+    "size":1,
+    "breakable":true,
+    "solid":false,
+    "destructible":false,
+    "hasShadow":false,
+    "requirements":[
+        {"amount":1,"item":"yswzLV1"}
+    ],
+    "category":"effect",
+    "research":"zs"
+}
