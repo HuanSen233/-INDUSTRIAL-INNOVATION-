@@ -82,6 +82,8 @@
 修改了 jxz.json 的数值
 
 修改了 .hjson 为 .json
+修改了 tqzypd.hjson 为 tqzspd.json
+修改了 tqzypd.png 为 tqzspd.png
 
 移除了 tzwkpd.hjson
 移除了 ljjt.hjson
