@@ -2,7 +2,7 @@
     "type":"legs",//类型：爬虫
     "health":200000,//生命值
     "armor":2000,//装甲
-    "hitSize":100,//大小
+    "hitSize":150,//大小
     //"canBoost":true,//是否助推
     //"boostMultiplier":1000,//助推速度倍率
     "speed":3,//基础速度
