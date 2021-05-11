@@ -112,5 +112,12 @@
 事件:
 更换了 jxz-leg.png
 更换了 jxz-base.png
+
+新增了 jxzzp.png
+新增了 jxzzp-heat.png
+
+更新了 jxz.json
+
+修改了 kte.json 的数值
 ————————————————————————————————————————————————
  
