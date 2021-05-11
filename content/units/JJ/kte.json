@@ -46,8 +46,8 @@
             //"alternate":false,//交替射击
             "rotate":false,//是否独立旋转
             //"rotateSpeed":0,//武器旋转的速度
-            "reload":420,//射速
-            "cooldownTime":280,//武器冷却时间
+            "reload":600,//射速
+            "cooldownTime":280,//武器-heat贴图时间
             "shots":1,//一次发射子弹的数量
             "inaccuracy":0,//精准度
             //"spacing":0,//多次射击时精准度偏移
@@ -58,7 +58,7 @@
             "shootY":0,//发射口Y轴偏移
             "shootX":0,//发射口X轴偏移
             //"continuous":false,//是否固定子弹射击的位置
-            "top":false,//是否在所有贴图上面
+            "top":false,//是否描边
             "ejectEffect":"shieldBreak",//射击效果
             "shootSound":"laserbig",//射击声音
             "noAmmoSound":"noammo",//无弹药时的射击声
@@ -145,7 +145,7 @@
             "shootY":17,//发射口Y轴偏移
             "shootX":0,//发射口X轴偏移
             //"continuous":false,//是否固定子弹射击的位置
-            "top":false,//是否在所有贴图上面
+            "top":false,//是否描边
             "ejectEffect":"none",//射击效果
             //"shootSound":"pow",//射击声音
             "noAmmoSound":"noammo",//无弹药时的射击声
@@ -177,7 +177,7 @@
             //"alternate":false,//交替射击
             "rotate":true,//是否独立旋转
             //"rotateSpeed":0,//武器旋转的速度
-            "reload":2,//射速
+            "reload":30,//射速
             "shots":5,//一次发射子弹的数量
             "inaccuracy":0,//精准度
             //"spacing":0,//多次射击时精准度偏移
@@ -188,7 +188,7 @@
             "shootY":10,//发射口Y轴偏移
             "shootX":0,//发射口X轴偏移
             //"continuous":false,//是否固定子弹射击的位置
-            "top":false,//是否在所有贴图上面
+            "top":false,//是否描边
             "ejectEffect":"none",//射击效果
             "shootSound":"release",//射击声音
             "noAmmoSound":"noammo",//无弹药时的射击声

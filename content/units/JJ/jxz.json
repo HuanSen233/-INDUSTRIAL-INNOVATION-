@@ -57,11 +57,50 @@
     "legSplashRange":400,//腿部伤害范围
     "weapons":[
         {
-            "name":"jxz1",//武器名字对应贴图名字
-            "y":-50,//武器Y轴偏移
-            "x":0,//武器X轴偏移
+            "name":"jxzzp",//武器名字对应贴图名字
+            "mirror":false,//镜像翻转武器
+            //"alternate":false,//交替射击
             "rotate":false,//是否独立旋转
-            "bullet":{}
+            //"rotateSpeed":0,//武器旋转的速度
+            "reload":120,//射速
+            "cooldownTime":60,//武器-heat贴图时间
+            "shots":1,//一次发射子弹的数量
+            "inaccuracy":0,//精准度
+            //"spacing":0,//多次射击时精准度偏移
+            "recoil":6,//后坐力
+            //"ignoreRotation":true,//射击时是否忽略单位的移动
+            "y":22,//武器Y轴偏移
+            "x":0,//武器X轴偏移
+            "shootY":10,//发射口Y轴偏移
+            "shootX":0,//发射口X轴偏移
+            //"continuous":false,//是否固定子弹射击的位置
+            "top":true//是否描边
+            "ejectEffect":"none",//射击效果
+            "shootSound":"release",//射击声音
+            "noAmmoSound":"noammo",//无弹药时的射击声
+            "heatColor":"ab3400ff",//发热颜色
+            "shadow":-0,//武器下方的阴影半径，小于0禁用
+            "bullet":{//子弹
+                "type":"MissileBulletType",
+                "width":5,//子弹宽度
+                "height":15,//子弹长度
+                "backColor":"6e7080",//子弹-back贴图颜色
+                "frontColor":"b0bac0",//子弹贴图颜色
+                "speed":10,//子弹速度
+                "damage":100,//伤害
+                "splashDamage":5,//范围伤害的伤害
+                "splashDamageRadius":100,//范围伤害的范围
+                //"healPercent":5,//治疗百分比
+                "lifetime":100,//子弹存在时间
+                "hitShake":0,//屏幕震动幅度
+                "knockback":0,//击退
+                "homingPower":1,//追踪力度
+                "homingRange":600,//追踪范围
+                "hitEffect":"shockwave",//击中特效
+                "despawnEffect":"shockwave",//超时特效
+                //"shootEffect":"shootHeal",//射击效果
+                //"smokeEffect":"none",//射击烟雾
+            }
         }
     ],
 	"research":"gxdw",//科技树前置
